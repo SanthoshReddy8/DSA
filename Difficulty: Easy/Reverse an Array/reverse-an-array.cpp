@@ -13,6 +13,9 @@ class Solution {
     }
 };
 
+TC: O(n) for Copying elements to a new array
+SC: O(n) for using an extra array
+
 
 //Optimised
 
@@ -29,3 +32,6 @@ class Solution {
         }
     }
 };
+
+TC: O(n) as we are visiting each element exactly once.
+SC: O(n) 
